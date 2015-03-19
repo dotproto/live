@@ -1,0 +1,16 @@
+{
+  "name": "live",
+  "version": "1.0.0",
+  "description": "Starting point for prototyping greenfield projects",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "author": "Simeon Vincent",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.3.1",
+    "gulp": "^3.8.11",
+    "gulp-stylus": "^2.0.1"
+  }
+}
