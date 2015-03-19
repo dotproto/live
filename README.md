@@ -18,6 +18,7 @@ gulp
 # Questions
 
 **Q: What's with the checkerboard?**
+
 A: I wanted a simple way to get a feel for finger size on mobile devices. Each square in the pattern is 45x45 pixels. This is a "round" average of the touch target size recommendations of several OS providers.
 
 * [Apple recommends](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Controls.html) 44x44 points
