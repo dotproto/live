@@ -1,9 +1,10 @@
-body {
-  // http://lea.verou.me/css3patterns/#checkerboard
-  background-color: white;
-  background-image: 
-    linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee), 
-    linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee);
-  background-size: 90px 90px;
-  background-position:0 0, 45px 45px
-}
+// Import all pre-defined mixins ONCE (http://learnboost.github.io/stylus/docs/import.html)
+@require "./mixins/**/*.styl"
+
+// Import all global "sane defaults"
+@require "./defaults/**/*.styl"
+
+// Checkerboard background
+// via http://lea.verou.me/css3patterns/#checkerboard
+body
+  checker(45px)
